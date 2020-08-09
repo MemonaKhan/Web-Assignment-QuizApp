@@ -57,35 +57,32 @@ for (var i = 1; i <= 5; i++) {
 
     }
     var hr = document.createElement("hr");
-    // var roll, fname, lname, email, count=0;
-    // console.log(count);
    div.appendChild(hr);
     quiz.appendChild(div);
 }
 console.log(quiz);
 
 
-// function submit(){
-//     // div.parentNode.remove();
-//     roll = document.getElementById("roll-no").value;
-//     fname = document.getElementById("first-name").value;
-//     fname = document.getElementById("first-name").value;
-//     email = document.getElementById("email").value;
-//     if(document.getElementById("opt13").checked==true){
-//         count++;
-//         // console.log(count);
-//     }
+function submit(){
+    var count = 0;
+    if(document.getElementById("opt13").checked == true){
+        count++;
+    }
+    if(document.getElementById("opt22").checked == true){
+        count++;
+    }
+    if(document.getElementById("opt30").checked == true){
+        count++;
+    }
+    if(document.getElementById("opt43").checked == true){
+        count++;
+    }
+    if(document.getElementById("opt51").checked == true){
+        count++;
+    }
 
-// }
+    alert("submited"+count);
 
-// var result = document.getElementById("result");
-
-// var table = document.getElementById("res-tab");
-// // console.log(table.nodeName())
-// var rollNo = document.getElementById("rn");
-// rollNo.innerHTML = roll;
-// var fullName = document.getElementById("name");
-// var emailId = document.getElementById("eml");
-// var totalMarks = document.getElementById("total");
-// var marksObtained = document.getElementById("marks");
-// var percentage = document.getElementById("perc");
+    // document.getElementsByName("body").innerHTML = " ";
+    // document.getElementById("quiz").reset();
+}
