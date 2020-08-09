@@ -81,7 +81,12 @@ function submit(){
         count++;
     }
 
-    alert("submited"+count);
+    var rn = document.getElementById("roll-no").value;
+    var name = document.getElementById("first-name").value+" "+document.getElementById("last-name").value;
+    var email = document.getElementById("email").value;
+
+    var result = "Name = "+name+"\nRoll No = "+rn+"\nEmail = "+email+"\nTotal Marks = 10\nObtained = "+count*2;
+    alert(result);
 
     // document.getElementsByName("body").innerHTML = " ";
     // document.getElementById("quiz").reset();
