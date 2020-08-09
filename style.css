@@ -1,0 +1,88 @@
+body{
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* text-align: center; */
+    font-family: 'Open Sans',sans-serif;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#quiz{
+    margin: 0 auto;
+    width: 70%;
+    /* background-color: aliceblue; */
+}
+#quiz h1{
+    font-size: 2em;
+    font-family: fantasy;
+    font-weight: 50;
+}
+#info{
+    margin-bottom: 20px;
+    width: 75%;
+}
+#info label{
+    display: inline-block;
+    padding-top: 1%;
+    width: 150px;
+}
+#info input{
+    width: 300px;
+    height: 20px;
+}
+#quiz hr{
+    width: 75%;
+    margin: 0 0 !important;
+    margin-top: 10px !important;
+}
+#quiz h2{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 15;
+}
+#quiz #opt0:hover, #opt1:hover, #opt2:hover, #opt3:hover{
+    cursor: pointer;
+}
+#submit, #back{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#submit button a, #back button a{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: oldlace;
+    border: oldlace;
+    color: black;
+    text-decoration: none;
+}
+
+
+#result-div #star img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+#result{
+    margin-top: 50px !important;
+    margin: 0 auto;
+    width: 50%;
+}
+#result td{
+    padding: 10px;
+    border: solid white;
+    /* border-collapse: collapse; */
+}
+
+
+
+@media (max-width:680px){
+    #quiz{
+        margin-left: 0px !important;
+    }
+}
